@@ -1,0 +1,112 @@
+#contatc_colunm_1{
+	width:35%;
+}
+
+#map_canvas{
+	display: inline-block;
+	width: 100%;
+	height: 218px;
+	border: 4px inset grey;
+}
+
+.gels{
+	display:none;
+}
+
+.info_perso{
+	margin-top: 5px;
+	font-size: 13px;
+	color: gray;
+}
+
+#mail:hover{
+	color:#FFF;
+}
+
+#contatc_colunm_2{
+	width:52%;
+	border:0px;
+}
+
+#formulaire{
+	display: inline-block;
+	width: 100%;
+	text-align: right;
+	float: right;
+}
+
+.form_colunms{
+	display: inline-block;
+	width: 43%;
+	padding-left: 7%;
+	float: left;
+}
+
+.labelContact{
+	display:inline-block;
+	width: 100%;
+	font-size: 13px;
+	text-shadow: 0 2px 1px #A8AAA6;
+	text-align: left;
+}
+
+.error{
+	display: none;
+	width: 98.5%;
+	margin: 1px 0px;
+	padding: 2px;
+	border: 1px solid #EE0808;
+	color: #DAD4D4;
+	font-size: 10px;
+	text-align: left;
+	float: left;
+	background-color: #3D3535;	
+}
+
+.formulaire_input{
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 5px;
+	border: 1px solid #CCCCCC;
+	border-radius: 2px;
+	-webkit-border-radius:2px;
+	-o-border-radius:2px;
+	-moz-border-radius:2px;	
+	background-color: rgba(255, 255, 255, 0.3);
+}
+
+#message{
+	height:155px;
+}
+
+#send_message{
+	display: inline-block;
+	height: 30px;
+	margin-top: 15px;
+	padding: 0px 35px;
+	border: 1px inset #535551;
+	border-radius: 4px !important;
+	color:#fff;
+	text-shadow: 0 1px 1px rgba(25, 25, 25, .5);
+	-webkit-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.40);
+	box-shadow: 0 2px 0 rgba(0, 0, 0, 0.40);
+	background: #111110;
+	background: -moz-linear-gradient(top, #5C6A8F 0%,#3E3F3D 55%,#1F1F29 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#5C6A8F), color-stop(55%,#3E3F3D), 	color-stop(100%,#1F1F29));
+	background: -o-linear-gradient(top, #5C6A8F 0%,#3E3F3D 55%,#1F1F29 100%);
+	background: -ms-linear-gradient(top, #5C6A8F 0%,#3E3F3D 55%,#1F1F29 100%);
+	background: linear-gradient(to bottom, #5C6A8F 0%,#3E3F3D 55%,#1F1F29 100%);
+	cursor:pointer;
+}
+
+#send_message:hover{
+	opacity:0.8;
+}
+
+#envoyer_en_cours{
+	display:none;
+	position:absolute;
+	top: 37%;
+	left:47%;
+}

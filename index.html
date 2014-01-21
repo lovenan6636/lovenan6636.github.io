@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Nan</title>
+<link type="text/css" rel="stylesheet" href="css/style.css" media="screen" />
+<link type="text/css" rel="stylesheet" href="css/jquery.mCustomScrollbar.css" />
+<link rel="prefetch" href="aboutme.html" />
+<link rel="prefetch" href="gallery.html" />
+<link rel="prefetch" href="contact.html" />
+<link rel="icon" href="imgs/icon.ico" />
+<script language="javascript" src="js/jquery.js"></script>
+<script language="javascript" src="js/easing.js"></script>
+<script language="javascript" src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script type="text/javascript" src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=AIzaSyDPHYJQO_hL3LmcBg6dus5qHP0c9nIwhxw&sensor=false" ></script>
+<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+
+<body>
+<div id="wrapper">
+	<div id="container">
+        <ul id="nav">
+            <li>
+                <a data-href="acceuil.html" class="nav_a">
+                    <img src="imgs/home.png" />
+                    <span class="span_title">ACCEUIL</span>
+                </a> 
+            </li>
+            <li>
+                <a data-href="aboutme.html" class="nav_a haslist">
+                    <img src="imgs/aboutme.png" />
+                    <span class="span_title">ABOUT ME</span>
+                </a> 
+                <ul class="sous_menu">
+                    <li><a data-href="aboutme.html" class="sous_menu_a nav_a">TECHNOLEGIE</a></li>
+                    <li><a data-href="cv.html" class="sous_menu_a nav_a">CURRICULUM VITAE</a></li>
+                </ul>
+            </li>
+            <li>
+                <a data-href="gallery.html" class="nav_a haslist">
+                    <img src="imgs/gallery.png" />
+                    <span class="span_title">GALERIE</span>
+                </a>
+                <ul class="sous_menu">
+                    <li><a data-href="projet.html" class="sous_menu_a nav_a">PROJETS</a></li>
+                    <li><a data-href="gallery.html" class="sous_menu_a nav_a">PHOTOS</a></li>
+                    <li><a data-href="music.html" class="sous_menu_a nav_a">MUSIQUES</a></li>
+                </ul>
+            </li>
+            <li>
+                <a data-href="blog.html" class="nav_a">
+                    <img src="imgs/blog.png" />
+                    <span class="span_title">BLOG</span>
+                </a>
+            </li>
+            <li>
+                <a data-href="contact.html" class="nav_a">
+                    <img src="imgs/contact.png" />
+                    <span class="span_title">CONTACT</span>
+                </a>
+            </li>
+         </ul>
+         <section id="dynamic_content">
+            <img id="chargement_img" src="imgs/chargement.gif" />
+            <section class="content current_content" id="first_content"></section>
+            <section class="content next_content" id="seconde_content"></section>
+         </section>
+         <footer>
+         	 <a class="Sociaux" id="facebook" title="Facebook_GUO Nan" href="https://www.facebook.com/guo.nan.98" target="_blank"></a>
+            <a class="Sociaux" id="twitter" title="Twitter_GUO Nan" href="https://twitter.com/GUONanHQ" target="_blank"></a>
+            <a class="Sociaux" id="linkedin" title="Linkedin_GUO Nan" href="http://www.linkedin.com/profile/view?id=222472983&trk=hb_tab_pro_top" target="_blank"></a>
+         	<span>Copyright &copy; 2013, Nan</span>
+         </footer>
+    </div>
+</div>
+<script language="javascript" src="js/script.js"></script>
+</body>
+</html>

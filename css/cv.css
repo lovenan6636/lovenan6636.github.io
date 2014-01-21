@@ -1,0 +1,149 @@
+#colunm_cv{
+	width:100%;
+	border:0px;
+}
+
+#list_ul{
+	width: 97%;
+	height: 400px
+	margin-top: -15px;
+}
+
+.list_li{
+	display: inline-block;
+	width: 45px;
+	height: 300px;
+	margin-right: 4px;
+	float: left;
+	cursor:pointer;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+.list_li:hover{
+	opacity:0.7;
+	margin-top:-10px;
+}
+
+.list_titre{
+	display: inline-block;
+	width: 45px;
+	height: 245px;
+	padding-top: 15px;
+	text-align: center;
+	font-size: 13px;
+	color: white;
+}
+
+.list_li:first-child{
+	background: url(../imgs/m1.png) no-repeat center;
+	background-position: 0px 260px;
+}
+
+.list_li:first-child span{
+	background:#DD654B;
+}
+
+.list_li:nth-child(3){
+	background: url(../imgs/m2.png) no-repeat center;
+	background-position: 0px 260px;
+}
+
+.list_li:nth-child(3) span{
+	background:#C82E4A;
+}
+
+.list_li:nth-child(5){
+	background: url(../imgs/m3.png) no-repeat center;
+	background-position: 0px 260px;
+}
+
+.list_li:nth-child(5) span{
+	background:#441D2C;
+}
+
+.list_li:nth-child(7){
+	background: url(../imgs/m4.png) no-repeat center;
+	background-position: 0px 260px;
+}
+
+.list_li:nth-child(7) span{
+	background:#5A8185;
+}
+
+.list_li:nth-child(9){
+	background: url(../imgs/m5.png) no-repeat center;
+	background-position: 0px 260px;
+}
+
+.list_li:nth-child(9) span{
+	background:#EED584;
+}
+
+.list_li:nth-child(11){
+	background: url(../imgs/m6.png) no-repeat center;
+	background-position: 0px 260px;
+}
+
+.list_li:nth-child(11) span{
+	background:#A52C5F;
+}
+
+.list_text{
+	display:inline-block;
+	width:0px;
+	height: 275px;
+	margin-top: 10px;
+	float:left;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	overflow: hidden;
+}
+
+.content_discription{
+	display: inline-block;
+	height: 275px;
+	max-height: 275px;
+	width: 94%;
+	padding-left: 30px;
+	line-height: 25px;
+	color: #fff;
+}
+
+.list_text:nth-child(2){
+	width:60%;
+}
+
+.first_ligne {
+	display: inline-block;
+	width: 98%;
+	font-size: 25px;
+}
+
+.text_projet{
+	display: inline-block;
+	width: 98%;
+	font-weight: 900;
+	color: rgb(241, 105, 105);
+	text-decoration: underline;
+}
+
+.text_discript{
+	display: inline-block;
+	width: 98%;
+	font-size: 13px;
+}
+
+.text_discript a{
+	font-family: myfont, Arial, Helvetica, sans-serif; 
+	color : #ccc;
+}
+
+.text_discript a:hover{
+	color : #fff;
+}
+

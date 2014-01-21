@@ -1,0 +1,37 @@
+#colunm_gallery{
+	width:100%;
+	border:0px;
+}
+
+#photos{
+	width: 95%;
+	height: 300px;
+	max-height: 300px;
+	text-align: center;
+	margin-top: -5px;
+}
+
+.mesphotos{
+	display: inline-block;
+	padding: 0px 30px;
+	margin-bottom: 15px;
+}
+
+.mesphotos>img{
+	width: 130px;
+	border: 4px solid #fff;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+.mesphotos>img:hover{
+	opacity:0.5;
+	-webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);   
+    filter: grayscale(100%);	
+    filter: gray;
+}

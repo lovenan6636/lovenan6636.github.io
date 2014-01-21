@@ -1,0 +1,50 @@
+<link rel="stylesheet" type="text/css" href="css/contact.css" media="screen" />
+<article class="child_content">
+	<section class="column" id="contatc_colunm_1">
+    	<h1 class="first_letter">CONTACTEZ-MOI</h1>
+        <div class="child_content_row">
+        	<div id="map_canvas"></div>
+            <address class="info_perso">ADRESSE : 3 ALLEE SIMONE DE BEAUVOIR <code>94110</code> <cite>ARCUEIL</cite></address>
+            <span class="info_perso">
+            	EMAIL: 
+                <a class="info_perso" id="mail" href="mailto:GuoNanHQ@gmail.com?Subject=Bonjour--Site Perso">
+                GuoNanHQ@gmail.com
+                </a>
+            </span>
+        </div>
+	</section>
+    <section class="column" id="contatc_colunm_2">
+    <h1 class="first_letter">ENVOYER VOTRE MESSAGE</h1>
+        <div class="child_content_row">
+            <form id="formulaire" action="send.php" method="post">
+                <div class="form_colunms">
+                    <label>
+                        <span class="labelContact">Nom :</span>
+                        <span id='name_error' class='error'>Veuillez entrer votre nom !!</span>
+                        <input type='text' name='name' id='name' class="formulaire_input" placeholder="Votre nom"  />
+                    </label>
+                    <label>
+                        <span class="labelContact">Email :</span>
+                        <span id='email_error' class='error'>veuillez entrer votre e-mail !!</span>
+                        <input type='email' name='email' id='email' class="formulaire_input" placeholder="Votre email"  />
+                    </label>
+                    <label>
+                        <span class="labelContact">Objet :</span>
+                        <span id='objet_error' class='error'>veuillez pr&eacute;ciser votre sujet !!</span>
+                        <input type='text' name='objet' id='objet' class="formulaire_input" placeholder="Votre sujet"  />
+                    </label>
+                </div>
+                <div class="form_colunms">
+                    <label>
+                        <span class="labelContact">Message :</span>
+                        <span id='message_error' class='error'>Champs message est requis !!</span>
+                        <textarea name='message' id='message' class="formulaire_input" placeholder="Votre message..."  ></textarea>
+                    </label>
+                    <label>
+                        <input type='submit' class="btn_submit" id='send_message' name="envoyer" value='Envoyer' />
+                    </label>
+                 </div>				
+        	 </form>
+         </div>
+</article>
+<script language="javascript" type="text/javascript" src="js/contact.js"></script>
